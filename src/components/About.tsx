@@ -19,10 +19,10 @@ const About = () => {
             </h2>
             <div className="space-y-6 text-lg text-slate-300 leading-relaxed">
               <p>
-                I'm a passionate full-stack developer with a love for creating beautiful, functional, and user-friendly applications. My journey in web development started 3 years ago, and I've been constantly learning and evolving ever since.
+                I'm a passionate system developer with a love for creating beautiful, functional, and user-friendly applications. My journey in system development started 3 years ago, and I've been constantly learning and evolving ever since.
               </p>
               <p>
-                I specialize in modern web technologies like React, Node.js, and TypeScript, but I'm always excited to explore new tools and frameworks. I believe in writing clean, maintainable code and creating seamless user experiences.
+                I specialize in modern web technologies like React, Node.js, and TypeScript, but I'm always excited to explore new tools and frameworks, especially AI. I believe in writing clean, maintainable code and creating seamless user experiences.
               </p>
               <p>
                 When I'm not coding, you can find me contributing to open-source projects, learning new technologies, or enjoying a good cup of coffee while brainstorming the next big idea.
