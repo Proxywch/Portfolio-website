@@ -59,7 +59,7 @@ const About = () => {
                 </li>
                 <li className="flex items-center">
                   <div className="w-2 h-2 bg-green-400 rounded-full mr-3"></div>
-                  Keeping up with and understanding upcomming cybersecurity standards and regulations
+                  Following and understanding upcomming cybersecurity standards and regulations
                 </li>
                 <li className="flex items-center">
                   <div className="w-2 h-2 bg-green-400 rounded-full mr-3"></div>
