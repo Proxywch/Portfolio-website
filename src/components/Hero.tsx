@@ -41,7 +41,7 @@ const Hero = () => {
 
 				<div className="flex justify-center space-x-6 mb-12">
 					<a
-						href="https://github.com"
+						href="https://github.com/Proxywch?tab=repositories"
 						target="_blank"
 						rel="noopener noreferrer"
 						className="text-slate-400 hover:text-white transition-colors duration-300 transform hover:scale-110"
@@ -49,7 +49,7 @@ const Hero = () => {
 						<Github size={28} />
 					</a>
 					<a
-						href="https://linkedin.com"
+						href="https://www.linkedin.com/in/melker-h%C3%A4llstr%C3%B6m-b17240250/"
 						target="_blank"
 						rel="noopener noreferrer"
 						className="text-slate-400 hover:text-white transition-colors duration-300 transform hover:scale-110"
