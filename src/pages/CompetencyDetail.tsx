@@ -23,7 +23,7 @@ const CompetencyDetail = () => {
         applications: [
           "Database optimization and indexing strategies",
           "Web application performance optimization",
-          "Game development and AI pathfinding",
+          "Game development",
           "System design and architecture decisions"
         ]
       }
