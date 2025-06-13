@@ -25,7 +25,7 @@ const About = () => {
                 I specialize in modern web technologies like React, Node.js, and TypeScript, but I'm always excited to explore new tools and frameworks, especially AI. I believe in writing clean, maintainable code and creating seamless user experiences.
               </p>
               <p>
-                When I'm not coding, you can find me contributing to open-source projects, learning new technologies, or enjoying a good cup of coffee while brainstorming the next big idea.
+                When I'm not coding, you can find me looking at open-source projects, learning and trying new technologies, or enjoying a good cup of coffee while brainstorming the next big idea.
               </p>
             </div>
           </div>
