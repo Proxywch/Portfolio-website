@@ -283,7 +283,7 @@ const CompetencyDetail = () => {
     <div className="min-h-screen bg-gradient-to-br from-slate-900 via-green-900 to-slate-900">
       <div className="max-w-4xl mx-auto px-4 py-12">
         <Link to="/" className="inline-block mb-8">
-          <Button variant="outline" className="bg-slate-900 border-slate-700 text-green-400 hover:border-green-500/50 hover:scale-105 hover:shadow-2xl hover:shadow-green-500/20 transition-all duration-300">
+          <Button variant="outline" className="bg-slate-900 border-slate-700 text-green-400 hover:border-green-500 hover:shadow-lg hover:shadow-green-500/25 transition-all duration-300">
             <ArrowLeft className="w-4 h-4 mr-2" />
             Back to Portfolio
           </Button>
