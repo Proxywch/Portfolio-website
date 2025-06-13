@@ -15,7 +15,7 @@ const About = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div>
             <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
-              About <span className="bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent">Me</span>
+              About <span className="bg-gradient-to-r from-green-400 to-emerald-400 bg-clip-text text-transparent">Me</span>
             </h2>
             <div className="space-y-6 text-lg text-slate-300 leading-relaxed">
               <p>
@@ -36,7 +36,7 @@ const About = () => {
               <div className="grid grid-cols-2 gap-6">
                 {stats.map((stat, index) => (
                   <div key={index} className="text-center">
-                    <div className="flex justify-center mb-3 text-blue-400">
+                    <div className="flex justify-center mb-3 text-green-400">
                       {stat.icon}
                     </div>
                     <div className="text-2xl font-bold text-white mb-1">{stat.number}</div>
@@ -50,19 +50,19 @@ const About = () => {
               <h3 className="text-xl font-bold text-white mb-4">Current Focus</h3>
               <ul className="space-y-3 text-slate-300">
                 <li className="flex items-center">
-                  <div className="w-2 h-2 bg-blue-400 rounded-full mr-3"></div>
+                  <div className="w-2 h-2 bg-green-400 rounded-full mr-3"></div>
                   Building scalable web applications
                 </li>
                 <li className="flex items-center">
-                  <div className="w-2 h-2 bg-blue-400 rounded-full mr-3"></div>
+                  <div className="w-2 h-2 bg-green-400 rounded-full mr-3"></div>
                   Exploring AI and machine learning
                 </li>
                 <li className="flex items-center">
-                  <div className="w-2 h-2 bg-blue-400 rounded-full mr-3"></div>
+                  <div className="w-2 h-2 bg-green-400 rounded-full mr-3"></div>
                   Contributing to open source
                 </li>
                 <li className="flex items-center">
-                  <div className="w-2 h-2 bg-blue-400 rounded-full mr-3"></div>
+                  <div className="w-2 h-2 bg-green-400 rounded-full mr-3"></div>
                   Mentoring junior developers
                 </li>
               </ul>

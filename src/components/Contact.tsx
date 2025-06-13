@@ -16,7 +16,7 @@ const Contact = () => {
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
-            Get In <span className="bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent">Touch</span>
+            Get In <span className="bg-gradient-to-r from-green-400 to-emerald-400 bg-clip-text text-transparent">Touch</span>
           </h2>
           <p className="text-xl text-slate-300 max-w-3xl mx-auto">
             Ready to bring your ideas to life? Let's discuss your next project and create something amazing together
@@ -35,8 +35,8 @@ const Contact = () => {
             
             <div className="space-y-6">
               <div className="flex items-center space-x-4">
-                <div className="bg-blue-500/20 p-3 rounded-lg">
-                  <Mail className="w-6 h-6 text-blue-400" />
+                <div className="bg-green-500/20 p-3 rounded-lg">
+                  <Mail className="w-6 h-6 text-green-400" />
                 </div>
                 <div>
                   <div className="text-white font-semibold">Email</div>
@@ -45,8 +45,8 @@ const Contact = () => {
               </div>
               
               <div className="flex items-center space-x-4">
-                <div className="bg-blue-500/20 p-3 rounded-lg">
-                  <Phone className="w-6 h-6 text-blue-400" />
+                <div className="bg-green-500/20 p-3 rounded-lg">
+                  <Phone className="w-6 h-6 text-green-400" />
                 </div>
                 <div>
                   <div className="text-white font-semibold">Phone</div>
@@ -55,8 +55,8 @@ const Contact = () => {
               </div>
               
               <div className="flex items-center space-x-4">
-                <div className="bg-blue-500/20 p-3 rounded-lg">
-                  <MapPin className="w-6 h-6 text-blue-400" />
+                <div className="bg-green-500/20 p-3 rounded-lg">
+                  <MapPin className="w-6 h-6 text-green-400" />
                 </div>
                 <div>
                   <div className="text-white font-semibold">Location</div>
@@ -74,7 +74,7 @@ const Contact = () => {
                   <Input 
                     type="text" 
                     placeholder="John"
-                    className="bg-slate-700/50 border-slate-600 text-white placeholder-slate-400 focus:border-blue-400"
+                    className="bg-slate-700/50 border-slate-600 text-white placeholder-slate-400 focus:border-green-400"
                   />
                 </div>
                 <div>
@@ -82,7 +82,7 @@ const Contact = () => {
                   <Input 
                     type="text" 
                     placeholder="Doe"
-                    className="bg-slate-700/50 border-slate-600 text-white placeholder-slate-400 focus:border-blue-400"
+                    className="bg-slate-700/50 border-slate-600 text-white placeholder-slate-400 focus:border-green-400"
                   />
                 </div>
               </div>
@@ -92,7 +92,7 @@ const Contact = () => {
                 <Input 
                   type="email" 
                   placeholder="john@example.com"
-                  className="bg-slate-700/50 border-slate-600 text-white placeholder-slate-400 focus:border-blue-400"
+                  className="bg-slate-700/50 border-slate-600 text-white placeholder-slate-400 focus:border-green-400"
                 />
               </div>
               
@@ -101,7 +101,7 @@ const Contact = () => {
                 <Input 
                   type="text" 
                   placeholder="Let's work together"
-                  className="bg-slate-700/50 border-slate-600 text-white placeholder-slate-400 focus:border-blue-400"
+                  className="bg-slate-700/50 border-slate-600 text-white placeholder-slate-400 focus:border-green-400"
                 />
               </div>
               
@@ -110,13 +110,13 @@ const Contact = () => {
                 <Textarea 
                   placeholder="Tell me about your project..."
                   rows={5}
-                  className="bg-slate-700/50 border-slate-600 text-white placeholder-slate-400 focus:border-blue-400 resize-none"
+                  className="bg-slate-700/50 border-slate-600 text-white placeholder-slate-400 focus:border-green-400 resize-none"
                 />
               </div>
               
               <Button 
                 type="submit"
-                className="w-full bg-gradient-to-r from-blue-600 to-cyan-600 hover:from-blue-700 hover:to-cyan-700 text-white py-3 text-lg font-semibold rounded-lg transition-all duration-300"
+                className="w-full bg-gradient-to-r from-green-600 to-emerald-600 hover:from-green-700 hover:to-emerald-700 text-white py-3 text-lg font-semibold rounded-lg transition-all duration-300"
               >
                 <Send className="w-5 h-5 mr-2" />
                 Send Message

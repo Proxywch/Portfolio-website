@@ -35,7 +35,7 @@ const Projects = () => {
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
-            Featured <span className="bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent">Projects</span>
+            Featured <span className="bg-gradient-to-r from-green-400 to-emerald-400 bg-clip-text text-transparent">Projects</span>
           </h2>
           <p className="text-xl text-slate-300 max-w-3xl mx-auto">
             A showcase of my recent work, demonstrating my expertise in full-stack development and modern web technologies
@@ -46,7 +46,7 @@ const Projects = () => {
           {projects.map((project, index) => (
             <div 
               key={project.title}
-              className="bg-slate-800/50 backdrop-blur-sm rounded-2xl overflow-hidden border border-slate-700/50 hover:border-blue-500/50 transition-all duration-300 transform hover:scale-105 hover:shadow-2xl hover:shadow-blue-500/20"
+              className="bg-slate-800/50 backdrop-blur-sm rounded-2xl overflow-hidden border border-slate-700/50 hover:border-green-500/50 transition-all duration-300 transform hover:scale-105 hover:shadow-2xl hover:shadow-green-500/20"
             >
               <div className="relative overflow-hidden">
                 <img 
@@ -65,7 +65,7 @@ const Projects = () => {
                   {project.tech.map((tech) => (
                     <span 
                       key={tech}
-                      className="bg-blue-500/20 text-blue-300 px-3 py-1 rounded-full text-sm border border-blue-500/30"
+                      className="bg-green-500/20 text-green-300 px-3 py-1 rounded-full text-sm border border-green-500/30"
                     >
                       {tech}
                     </span>
@@ -84,7 +84,7 @@ const Projects = () => {
                   </Button>
                   <Button 
                     asChild
-                    className="bg-gradient-to-r from-blue-600 to-cyan-600 hover:from-blue-700 hover:to-cyan-700 text-white flex-1"
+                    className="bg-gradient-to-r from-green-600 to-emerald-600 hover:from-green-700 hover:to-emerald-700 text-white flex-1"
                   >
                     <a href={project.live} target="_blank" rel="noopener noreferrer">
                       <ExternalLink className="w-4 h-4 mr-2" />
