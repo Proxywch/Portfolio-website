@@ -12,13 +12,13 @@ const Hero = () => {
       <div className="text-center max-w-4xl mx-auto">
         <div className="mb-8">
           <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
-            Hi, I'm{" "}
+            Hi, I'm{" Melker"}
             <span className="bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent">
               Your Name
             </span>
           </h1>
           <p className="text-xl md:text-2xl text-slate-300 mb-8 leading-relaxed">
-            Full-Stack Developer crafting exceptional digital experiences
+            System Developer crafting exceptional digital experiences
             <br />
             with modern technologies and creative solutions
           </p>
