@@ -13,7 +13,7 @@ const Hero = () => {
         <div className="mb-8">
           <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
             Hi, I'm{" "}
-            <span className="bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent">
+            <span className="bg-gradient-to-r from-green-400 to-emerald-400 bg-clip-text text-transparent">
               Melker
             </span>
           </h1>
@@ -27,14 +27,14 @@ const Hero = () => {
         <div className="flex flex-wrap justify-center gap-4 mb-12">
           <Button 
             onClick={() => scrollToSection("projects")}
-            className="bg-gradient-to-r from-blue-600 to-cyan-600 hover:from-blue-700 hover:to-cyan-700 text-white px-8 py-3 text-lg font-semibold rounded-full transition-all duration-300 transform hover:scale-105"
+            className="bg-gradient-to-r from-green-600 to-emerald-600 hover:from-green-700 hover:to-emerald-700 text-white px-8 py-3 text-lg font-semibold rounded-full transition-all duration-300 transform hover:scale-105"
           >
             View My Work
           </Button>
           <Button 
             onClick={() => scrollToSection("contact")}
             variant="outline" 
-            className="border-2 border-blue-400 text-blue-400 hover:bg-blue-400 hover:text-slate-900 px-8 py-3 text-lg font-semibold rounded-full transition-all duration-300"
+            className="border-2 border-green-400 text-green-400 hover:bg-green-400 hover:text-slate-900 px-8 py-3 text-lg font-semibold rounded-full transition-all duration-300"
           >
             Get In Touch
           </Button>
